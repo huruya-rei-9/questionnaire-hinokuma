@@ -5,16 +5,16 @@ import Administrator from './Administrator';
 const App = () => {
     return(
         <>
-            <BrowserRouter>
+            {/* <BrowserRouter>
                 <Switch>
-                    <Route exact path='/'>
+                    <Route exact path='/'> */}
                         <Question />
-                    </Route>
-                    <Route exact path='/administrator'>
-                        <Administrator />
+                    {/* </Route>
+                    <Route exact path='/administrator'> */}
+                        {/* <Administrator />
                     </Route>
                 </Switch>
-            </BrowserRouter>
+            </BrowserRouter> */}
         </>
     )
 }
