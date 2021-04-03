@@ -5,7 +5,7 @@ import Administrator from './Administrator';
 const App = () => {
     return(
         <>
-            <BrowserRouter>
+            <BrowserRouter basename={process.env.PUBLIC_URL}>
                 <Switch>
                     <Route exact path='/'>
                         <Question />
