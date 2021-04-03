@@ -10,7 +10,7 @@ const App = () => {
                     <Route exact path='/'>
                         <Question />
                     </Route>
-                    <Route exact path='/administrator'>
+                    <Route path='/administrator'>
                         <Administrator />
                     </Route>
                 </Switch>
