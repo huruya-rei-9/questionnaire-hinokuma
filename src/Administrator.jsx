@@ -61,28 +61,28 @@ const Administrator = () => {
                 <div className={classes.q1}>
                     <Typography>問1</Typography>
                     <Typography>減らすべき</Typography>
-                    <Typography>{ans1.answer1}</Typography>
+                    <Typography>{ans1.answer1}人</Typography>
                     <Typography>現状維持で</Typography>
-                    <Typography>{ans1.answer2}</Typography>
+                    <Typography>{ans1.answer2}人</Typography>
                     <Typography>増やすべき</Typography>
-                    <Typography>{ans1.answer3}</Typography>
+                    <Typography>{ans1.answer3}人</Typography>
                 </div>
                 <div className={classes.q2}>
                     <Typography>問2</Typography>
                     <Typography>20%</Typography>
-                    <Typography>{ans2.answer1}</Typography>
+                    <Typography>{ans2.answer1}人</Typography>
                     <Typography>15%</Typography>
-                    <Typography>{ans2.answer2}</Typography>
+                    <Typography>{ans2.answer2}人</Typography>
                     <Typography>10%</Typography>
-                    <Typography>{ans2.answer3}</Typography>
+                    <Typography>{ans2.answer3}人</Typography>
                     <Typography>8%</Typography>
-                    <Typography>{ans2.answer4}</Typography>
+                    <Typography>{ans2.answer4}人</Typography>
                     <Typography>5%</Typography>
-                    <Typography>{ans2.answer5}</Typography>
+                    <Typography>{ans2.answer5}人</Typography>
                     <Typography>3%</Typography>
-                    <Typography>{ans2.answer6}</Typography>
+                    <Typography>{ans2.answer6}人</Typography>
                     <Typography>0%</Typography>
-                    <Typography>{ans2.answer7}</Typography>
+                    <Typography>{ans2.answer7}人</Typography>
                 </div>
             </div>
         </>
