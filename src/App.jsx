@@ -1,11 +1,11 @@
-import {BrowserRouter, Switch, Route} from 'react-router-dom';
+import {BrowserRouter, Switch, Route, HashRouter} from 'react-router-dom';
 import Question from './Question';
 import Administrator from './Administrator';
 
 const App = () => {
     return(
         <>
-            <BrowserRouter basename={process.env.PUBLIC_URL}>
+            <HashRouter basename={process.env.PUBLIC_URL}>
                 <Switch>
                     <Route exact path='/'>
                         <Question />
@@ -14,7 +14,7 @@ const App = () => {
                         <Administrator />
                     </Route>
                 </Switch>
-            </BrowserRouter>
+            </HashRouter>
         </>
     )
 }
